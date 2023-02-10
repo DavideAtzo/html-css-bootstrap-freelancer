@@ -1,4 +1,5 @@
-#profilo{
+#profilo,
+#about{
     background-color: var(--profile-green);
 }
 
@@ -7,3 +8,4 @@
     background-color: salmon;
     height: 350px;
 }
+
