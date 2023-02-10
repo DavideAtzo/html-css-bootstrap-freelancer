@@ -1,3 +1,9 @@
 #profilo{
     background-color: var(--profile-green);
 }
+
+
+.debug-img{
+    background-color: salmon;
+    height: 350px;
+}
