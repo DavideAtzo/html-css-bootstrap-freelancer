@@ -1,0 +1,8 @@
+header{
+    background-color: var(--header-blue);
+}
+
+
+header .row{
+    height: 90px;
+}
