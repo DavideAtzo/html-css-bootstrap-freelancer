@@ -6,3 +6,24 @@ footer{
 #copyright{
     background-color: var(--copyright);
 }
+#copyright i{
+    font-size: .625rem;
+    padding: 0;
+}
+h6{
+    text-transform: uppercase;
+}
+
+footer i{
+    border: 2px solid white;
+    border-radius: 100%;
+    padding: .9375rem;
+}
+
+footer li:first-child i{
+    padding: 15px 20px 15px 20px;
+}
+
+footer span{
+    color: var(--profile-green);
+}
