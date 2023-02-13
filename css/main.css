@@ -4,9 +4,32 @@
     color: white;
 }
 
+.box-img img{
+    width: 18.75rem;
+}
 
 .debug-img{
     background-color: salmon;
-    height: 350px;
 }
 
+#profilo h1,
+#skills h5
+{
+    text-transform: uppercase;
+}
+
+#star i{
+    font-size: 1.875rem;
+}
+#little-bar::before{
+    content: "\2010";
+    padding: 0 .3125rem 0 .3125rem;
+}
+#little-bar::after{
+    content: "\2010";
+    padding: 0 .3125rem 0 .3125rem;
+}
+
+/* #star::before{
+    content: "\2015";
+} */
