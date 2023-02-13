@@ -6,19 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrp freelancer</title>
-    <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <header>
         <div class="container .d-flex">
             <div class="w-75 mx-auto row align-items-center">
-                <div class="col-8">
-                    <h2>titolo</h2>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#">start bootstrap</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">portfoglio</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" role="button">
+                              contact
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+
+                <!-- <div class="col-8">
+                    <h2>start bootstrap</h2>
                 </div>
-                <div class="col-4 text-end">menu</div>
+                <div class="col-4 text-end">
+                    
+                </div> -->
             </div>
         </div>
     </header>
@@ -39,13 +68,15 @@
                     <h3>portfoglio</h3>
                     <div>stella</div>
                 </div>
-                <div class="container row flex-column flex-md-row justify-content-center">
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
-                    <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                <div class="container ">
+                    <div class="row flex-column flex-md-row justify-content-center">
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                        <div class="debug-img text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">IMG</div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -54,15 +85,16 @@
                 <h3>about</h3>
                 <div>stella</div>
             </div>
-                <div class="w-75 mx-auto row flex-md-row flex-column justify-content-center">
-                    <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae exercitationem esse
-                        debitis laborum itaque accusamus quae cum ea quod, vel ipsum eligendi! Incidunt dolore vero earum
-                        voluptates, non exercitationem accusantium!</p>
-                    <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe
-                        consectetur? Id iure eligendi natus error! Temporibus recusandae enim ratione porro veniam et, at
-                        blanditiis odit natus atque magni repellendus!</p>
-                </div>
-                <div class="text-center pb-4 mt-4">tasto download</div>
+            <div class="w-75 mx-auto row flex-md-row flex-column justify-content-center">
+                <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae exercitationem
+                    esse
+                    debitis laborum itaque accusamus quae cum ea quod, vel ipsum eligendi! Incidunt dolore vero earum
+                    voluptates, non exercitationem accusantium!</p>
+                <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe
+                    consectetur? Id iure eligendi natus error! Temporibus recusandae enim ratione porro veniam et, at
+                    blanditiis odit natus atque magni repellendus!</p>
+            </div>
+            <div class="text-center pb-4 mt-4">tasto download</div>
         </section>
         <section id="contact-me py-4">
             <div class="container">
@@ -102,6 +134,7 @@
             <h5>copyright</h5>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
