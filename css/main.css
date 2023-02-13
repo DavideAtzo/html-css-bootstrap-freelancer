@@ -9,7 +9,8 @@
 }
 
 #profilo h1,
-#skills h5
+#skills h5,
+h2
 {
     text-transform: uppercase;
 }
@@ -29,3 +30,33 @@
 /* #star::before{
     content: "\2015";
 } */
+
+#ms-btn{
+    color: white;
+    border-radius: .625rem;
+    padding: .625rem 1.25rem;
+}
+.ms-btn-trasparent{
+    border-color: white;
+    background-color: transparent;
+}
+
+.ms-btn-green{
+    background-color: var(--profile-green);
+    border-radius: .625rem;
+    padding: .625rem 1.25rem;
+    border: none;
+}
+
+label{
+    display: block;
+    color: var(--header-blue);
+    font-weight: 600;
+}
+
+input,
+textarea{
+    border: none;
+    border-bottom: .0625rem solid rgba(0, 0, 0, 0.3);
+}
+

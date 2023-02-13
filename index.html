@@ -19,7 +19,7 @@
     <header>
         <div class="container .d-flex">
             <div class="mx-auto row align-items-center">
-                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">start bootstrap</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,23 +74,23 @@
                 </div>
                 <div class="container ">
                     <div class="row flex-column flex-md-row justify-content-center">
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/cabin.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/cabin.png" alt="#">
                         </div>
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/cake.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/cake.png" alt="#">
                         </div>
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/circus.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/circus.png" alt="#">
                         </div>
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/game.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/game.png" alt="#">
                         </div>
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/safe.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/safe.png" alt="#">
                         </div>
-                        <div class="text-center mt-3 mb-4 rounded-3 col col-md-5 col-lg-3 mx-md-2">
-                            <img class="img-fluid" src="img/submarine.png" alt="#">
+                        <div class="text-center mt-3 mb-4 col col-md-5 col-lg-3 mx-md-2">
+                            <img class="img-fluid rounded-3" src="img/submarine.png" alt="#">
                         </div>
                     </div>
                 </div>
@@ -98,36 +98,57 @@
         </section>
         <section id="about">
             <div class="container py-4 text-center">
-                <h3>about</h3>
+                <h2>about</h2>
                 <div id="star">
                     <i class="fa-solid fa-star py-4"></i>
                 </div>
             </div>
             <div class="w-75 mx-auto row flex-md-row flex-column justify-content-center">
-                <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae exercitationem
-                    esse
-                    debitis laborum itaque accusamus quae cum ea quod, vel ipsum eligendi! Incidunt dolore vero earum
-                    voluptates, non exercitationem accusantium!</p>
-                <p class="col col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, saepe
-                    consectetur? Id iure eligendi natus error! Temporibus recusandae enim ratione porro veniam et, at
-                    blanditiis odit natus atque magni repellendus!</p>
+                <p class="col col-md-5"> Freelancer is a free bootstrap theme create b Start bootstrap.
+                    The download includes the complete source file including HTML, CSS, and
+                    JavaScript as wall as optional LESS stylesheets fot east customization</p>
+                <p class="col col-md-5">Whether you're a studente looking to showcase your work, a professional
+                    looking to attract clients, or a graphic artist looking to share your
+                    projects, this templete is the perfect starting point!</p>
             </div>
-            <div class="text-center pb-4 mt-4">tasto download</div>
+            <div class="text-center pb-4 mt-4">
+                <button id="ms-btn" type="button" class="ms-btn-trasparent">
+                    <i class="fa-solid fa-download"></i><span> Download</span>
+                </button>
+            </div>
         </section>
-        <section id="contact-me py-4">
-            <div class="container">
+        <section id="contact-me">
+            <div class="container py-4">
                 <div class="text-center">
-                    <h3>about</h3>
-                    <div>stella</div>
+                    <h2>contact-me</h2>
+                    <div id="star">
+                        <i class="fa-solid fa-star py-4"></i>
+                    </div>
                 </div>
                 <div class="w-75 mx-auto">
+                   <form action="" method="get" class="contact">
                     <ul class="list-unstyled text-left px-5">
-                        <li>name</li>
-                        <li>email address</li>
-                        <li>phone number</li>
-                        <li>massage</li>
+                        <li>
+                            <label for="name">Name</label>
+                            <input class="w-100 h-50" type="text" name="name" id="name" required>
+                        </li>
+                        <li>
+                            <label for="first-email">Email Address</label>
+                            <input class="w-100 h-50" type="text" name="email-address" id="email-address" required>
+                        </li>
+                        <li>
+                            <label for="phone-n">Phone Number</label>
+                            <input class="w-100 h-50" type="text" name="phone-n" id="phone-n" required>
+                        </li>
+                        <li>
+                            <label for="name">Message</label>
+                            <textarea class="w-100" name="message" id="message" cols="30" rows="5"></textarea>
+                        </li>
                     </ul>
-                    <div class="px-5 mt-3">tasto send</div>
+                    <div class="px-5 mt-3">
+                        <button id="ms-btn" type="button" class="ms-btn-green">Success</button>
+                    </div>
+                   </form>
                 </div>
             </div>
         </section>
